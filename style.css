@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #99CC99;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+
+    font-size: 22px;
+}
+
+form {
+    width: 540px;
+    position: relative;
+    top: 80px;
+    background-color: #FFFFCC;
+}
+
+table tr td {
+    font-size: 20px;
+    position: relative;
+}
+
+table tr td input{
+    height: 30px;
+    width: 320px;
+}
+
+header h1 {
+    color: blue;
+}
+
+table td select {
+    height: 30px;
+    width: 90px;
+}
+
+#container {
+    height: 800px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tel-td input{
+    width: 220px;
+}
+
+#address-td textarea {
+    overflow-y: scroll;
+}
+
+#date-td {
+    font-weight: bold;
+}
+
+#date-td select {
+    width: 60px;
+}
+
+#ns {
+    width: 100px;
+}
+
+#cmnd {
+    width: 200px;
+}
+
+#ckd {
+    width: 250px;
+}
+
+#date {
+    width: 250px;
+}
+
+#btn-td button {
+    height: 30px;
+    width: 80px;
+
+    position: relative;
+    left: 130px;
+}
+
+#btn-td input {
+    height: 30px;
+    width: 80px;
+
+    position: relative;
+    left: 130px;
+}
